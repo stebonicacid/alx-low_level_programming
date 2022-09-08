@@ -1,5 +1,3 @@
-#!/bin/bash
-
 #include <stdio.h>
  
 /* main serves as the entry point function in C */
