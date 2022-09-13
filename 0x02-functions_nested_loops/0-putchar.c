@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
+#include <main.h>
 /**
  * main - Check description
  * Description: It prints the word Prince, followed by a new line.
