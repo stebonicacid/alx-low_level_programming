@@ -1,32 +1,23 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_sign - Check main
- * @n: An input number
- * Description: Tohis function prints the sign of the number
- * Return: 1 if number is positive, o if number is 0, or
- * -1 if number is negative
+ * print_last_digit - prints the last digit of a number
+ * @n: the int to extract the last digit from
+ * Return: value of the last digit
  */
-int print_sign(int n)
+int print_last_digit(int n)
 {
-	int value;
+	int a;
 
-	if (n > 0)
-	{
-		value = 1;
-		_putchar('+');
-	}
-	else if (n == 0)
-	{
-		value = 0;
-		_putchar('0');
-	}
-	else
-	{
-		value = -1;
-		_putchar('-');
-	}
+	if (n < 0)
+		n = -n;
 
-	return (value);
+	a = n % 10;
+
+	if (a < 0)
+		a = -a;
+
+	_putchar(a + '0');
+
+	return (a);
 }
