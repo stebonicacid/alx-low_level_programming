@@ -17,7 +17,7 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
-void print_integer(int m)
+void print_integer(int n)
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int);
