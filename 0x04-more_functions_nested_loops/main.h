@@ -1,4 +1,4 @@
-int print_sign(int n);
+
 #ifndef MAIN_H_included
 #define MAIN_H_included
 
@@ -17,10 +17,12 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
+void print_integer(int m)
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int);
 int print_last_digit(int);
+int print_sign(int n);
 int add(int a, int b);
 int _isupper(int c);
 int _isdigit(int);
