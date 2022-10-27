@@ -1,1 +1,1 @@
-A look into bitwise operations in C.
+0x14-bit_manipulation readme

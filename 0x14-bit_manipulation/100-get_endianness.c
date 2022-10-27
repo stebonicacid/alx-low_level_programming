@@ -1,13 +1,18 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- * get_endianness - checks the endianness
- * Return: 1 if little, 0 if big
+ * get_endianness - Checks the endianness.
+ *
+ * Return: If big-endian - 0.
+ *         If little-endian - 1.
  */
 int get_endianness(void)
 {
-	unsigned int x = 0x76543210;
-	char *c = (char *)&x;
+	int num = 1;
+	char *endian = (char *)&num;
 
-	return (*c == 0x10);
+	if (*endian == 1)
+		return (1);
+
+	return (0);
 }
